@@ -22,7 +22,8 @@ app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
 
 app.use(express.json())
 const corsOptions = {
-    origin: 'http://localhost:5173', 
+    origin: 'https://gemasdelujo.prasoonpr.tech/', 
+    
     // origin: 'http://192.168.1.9:5173', 
     credentials: true,  
   };
